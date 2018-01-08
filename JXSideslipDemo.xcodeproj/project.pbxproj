@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427BE356DE9686D543B2C487 /* libPods-JXSideslipDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05231B098931E719CEE46AB9 /* libPods-JXSideslipDemo.a */; };
+		82AA8EF520030B9D00366C69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8EF420030B9D00366C69 /* AppDelegate.m */; };
+		82AA8EF820030B9D00366C69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8EF720030B9D00366C69 /* ViewController.m */; };
+		82AA8EFB20030B9D00366C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA8EF920030B9D00366C69 /* Main.storyboard */; };
+		82AA8EFD20030B9D00366C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AA8EFC20030B9D00366C69 /* Assets.xcassets */; };
+		82AA8F0020030B9D00366C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA8EFE20030B9D00366C69 /* LaunchScreen.storyboard */; };
+		82AA8F0320030B9D00366C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F0220030B9D00366C69 /* main.m */; };
+		82AA8F0C20030BCE00366C69 /* UIViewController+JXDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F0B20030BCE00366C69 /* UIViewController+JXDrawer.m */; };
+		82AA8F0F20030D5000366C69 /* JXDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F0E20030D5000366C69 /* JXDrawerTransition.m */; };
+		82AA8F1220030E7B00366C69 /* JXDrawerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F1120030E7B00366C69 /* JXDrawerConfiguration.m */; };
+		82AA8F152003178200366C69 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F142003178200366C69 /* LeftViewController.m */; };
+		82AA8F182003191E00366C69 /* JXDrawerDismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F172003191E00366C69 /* JXDrawerDismissingAnimator.m */; };
+		82AA8F1B20031AC800366C69 /* JXDrawerInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F1A20031AC800366C69 /* JXDrawerInteractiveTransition.m */; };
+		82AA8F1E20034CB500366C69 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F1D20034CB500366C69 /* RightViewController.m */; };
+		82AA8F2120034DBB00366C69 /* NextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F2020034DBB00366C69 /* NextTableViewController.m */; };
+		82AA8F30200362EC00366C69 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F2F200362EC00366C69 /* NavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0387A814197626ACA1D844DD /* Pods-JXSideslipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXSideslipDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXSideslipDemo/Pods-JXSideslipDemo.release.xcconfig"; sourceTree = "<group>"; };
+		05231B098931E719CEE46AB9 /* libPods-JXSideslipDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXSideslipDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA8EF020030B9D00366C69 /* JXSideslipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXSideslipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA8EF320030B9D00366C69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82AA8EF420030B9D00366C69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82AA8EF620030B9D00366C69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82AA8EF720030B9D00366C69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82AA8EFA20030B9D00366C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82AA8EFC20030B9D00366C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AA8EFF20030B9D00366C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82AA8F0120030B9D00366C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AA8F0220030B9D00366C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82AA8F0A20030BCE00366C69 /* UIViewController+JXDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXDrawer.h"; sourceTree = "<group>"; };
+		82AA8F0B20030BCE00366C69 /* UIViewController+JXDrawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXDrawer.m"; sourceTree = "<group>"; };
+		82AA8F0D20030D5000366C69 /* JXDrawerTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXDrawerTransition.h; sourceTree = "<group>"; };
+		82AA8F0E20030D5000366C69 /* JXDrawerTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDrawerTransition.m; sourceTree = "<group>"; };
+		82AA8F1020030E7B00366C69 /* JXDrawerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXDrawerConfiguration.h; sourceTree = "<group>"; };
+		82AA8F1120030E7B00366C69 /* JXDrawerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDrawerConfiguration.m; sourceTree = "<group>"; };
+		82AA8F132003178200366C69 /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		82AA8F142003178200366C69 /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		82AA8F162003191E00366C69 /* JXDrawerDismissingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXDrawerDismissingAnimator.h; sourceTree = "<group>"; };
+		82AA8F172003191E00366C69 /* JXDrawerDismissingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDrawerDismissingAnimator.m; sourceTree = "<group>"; };
+		82AA8F1920031AC800366C69 /* JXDrawerInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXDrawerInteractiveTransition.h; sourceTree = "<group>"; };
+		82AA8F1A20031AC800366C69 /* JXDrawerInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDrawerInteractiveTransition.m; sourceTree = "<group>"; };
+		82AA8F1C20034CB500366C69 /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		82AA8F1D20034CB500366C69 /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		82AA8F1F20034DBB00366C69 /* NextTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextTableViewController.h; sourceTree = "<group>"; };
+		82AA8F2020034DBB00366C69 /* NextTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextTableViewController.m; sourceTree = "<group>"; };
+		82AA8F2E200362EC00366C69 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		82AA8F2F200362EC00366C69 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		BD40C978A5ED80C97522066B /* Pods-JXSideslipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXSideslipDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXSideslipDemo/Pods-JXSideslipDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AA8EED20030B9D00366C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BE356DE9686D543B2C487 /* libPods-JXSideslipDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32063D8C0DB360499F9B57A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD40C978A5ED80C97522066B /* Pods-JXSideslipDemo.debug.xcconfig */,
+				0387A814197626ACA1D844DD /* Pods-JXSideslipDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82AA8EE720030B9D00366C69 = {
+			isa = PBXGroup;
+			children = (
+				82AA8EF220030B9D00366C69 /* JXSideslipDemo */,
+				82AA8EF120030B9D00366C69 /* Products */,
+				32063D8C0DB360499F9B57A2 /* Pods */,
+				AEDC8C5CE570E0E636EC6C70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82AA8EF120030B9D00366C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AA8EF020030B9D00366C69 /* JXSideslipDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AA8EF220030B9D00366C69 /* JXSideslipDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82AA8F0920030BB500366C69 /* JXDrawer */,
+				82AA8EF320030B9D00366C69 /* AppDelegate.h */,
+				82AA8EF420030B9D00366C69 /* AppDelegate.m */,
+				82AA8F2E200362EC00366C69 /* NavigationController.h */,
+				82AA8F2F200362EC00366C69 /* NavigationController.m */,
+				82AA8EF620030B9D00366C69 /* ViewController.h */,
+				82AA8EF720030B9D00366C69 /* ViewController.m */,
+				82AA8F132003178200366C69 /* LeftViewController.h */,
+				82AA8F142003178200366C69 /* LeftViewController.m */,
+				82AA8F1C20034CB500366C69 /* RightViewController.h */,
+				82AA8F1D20034CB500366C69 /* RightViewController.m */,
+				82AA8F1F20034DBB00366C69 /* NextTableViewController.h */,
+				82AA8F2020034DBB00366C69 /* NextTableViewController.m */,
+				82AA8EF920030B9D00366C69 /* Main.storyboard */,
+				82AA8EFC20030B9D00366C69 /* Assets.xcassets */,
+				82AA8EFE20030B9D00366C69 /* LaunchScreen.storyboard */,
+				82AA8F0120030B9D00366C69 /* Info.plist */,
+				82AA8F0220030B9D00366C69 /* main.m */,
+			);
+			path = JXSideslipDemo;
+			sourceTree = "<group>";
+		};
+		82AA8F0920030BB500366C69 /* JXDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				82AA8F0A20030BCE00366C69 /* UIViewController+JXDrawer.h */,
+				82AA8F0B20030BCE00366C69 /* UIViewController+JXDrawer.m */,
+				82AA8F0D20030D5000366C69 /* JXDrawerTransition.h */,
+				82AA8F0E20030D5000366C69 /* JXDrawerTransition.m */,
+				82AA8F1020030E7B00366C69 /* JXDrawerConfiguration.h */,
+				82AA8F1120030E7B00366C69 /* JXDrawerConfiguration.m */,
+				82AA8F162003191E00366C69 /* JXDrawerDismissingAnimator.h */,
+				82AA8F172003191E00366C69 /* JXDrawerDismissingAnimator.m */,
+				82AA8F1920031AC800366C69 /* JXDrawerInteractiveTransition.h */,
+				82AA8F1A20031AC800366C69 /* JXDrawerInteractiveTransition.m */,
+			);
+			path = JXDrawer;
+			sourceTree = "<group>";
+		};
+		AEDC8C5CE570E0E636EC6C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05231B098931E719CEE46AB9 /* libPods-JXSideslipDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AA8EEF20030B9D00366C69 /* JXSideslipDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA8F0620030B9D00366C69 /* Build configuration list for PBXNativeTarget "JXSideslipDemo" */;
+			buildPhases = (
+				25C1463F43ACC65E9BCB6EF6 /* [CP] Check Pods Manifest.lock */,
+				82AA8EEC20030B9D00366C69 /* Sources */,
+				82AA8EED20030B9D00366C69 /* Frameworks */,
+				82AA8EEE20030B9D00366C69 /* Resources */,
+				D69B38BDD5D00C3280A58665 /* [CP] Embed Pods Frameworks */,
+				9C2731C254C9951D3736EA4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXSideslipDemo;
+			productName = JXSideslipDemo;
+			productReference = 82AA8EF020030B9D00366C69 /* JXSideslipDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AA8EE820030B9D00366C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yituiyun;
+				TargetAttributes = {
+					82AA8EEF20030B9D00366C69 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82AA8EEB20030B9D00366C69 /* Build configuration list for PBXProject "JXSideslipDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AA8EE720030B9D00366C69;
+			productRefGroup = 82AA8EF120030B9D00366C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AA8EEF20030B9D00366C69 /* JXSideslipDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AA8EEE20030B9D00366C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA8F0020030B9D00366C69 /* LaunchScreen.storyboard in Resources */,
+				82AA8EFD20030B9D00366C69 /* Assets.xcassets in Resources */,
+				82AA8EFB20030B9D00366C69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25C1463F43ACC65E9BCB6EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2731C254C9951D3736EA4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXSideslipDemo/Pods-JXSideslipDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69B38BDD5D00C3280A58665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXSideslipDemo/Pods-JXSideslipDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AA8EEC20030B9D00366C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA8F0F20030D5000366C69 /* JXDrawerTransition.m in Sources */,
+				82AA8EF820030B9D00366C69 /* ViewController.m in Sources */,
+				82AA8F0320030B9D00366C69 /* main.m in Sources */,
+				82AA8F30200362EC00366C69 /* NavigationController.m in Sources */,
+				82AA8F182003191E00366C69 /* JXDrawerDismissingAnimator.m in Sources */,
+				82AA8F2120034DBB00366C69 /* NextTableViewController.m in Sources */,
+				82AA8F1220030E7B00366C69 /* JXDrawerConfiguration.m in Sources */,
+				82AA8F1E20034CB500366C69 /* RightViewController.m in Sources */,
+				82AA8F152003178200366C69 /* LeftViewController.m in Sources */,
+				82AA8EF520030B9D00366C69 /* AppDelegate.m in Sources */,
+				82AA8F1B20031AC800366C69 /* JXDrawerInteractiveTransition.m in Sources */,
+				82AA8F0C20030BCE00366C69 /* UIViewController+JXDrawer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82AA8EF920030B9D00366C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA8EFA20030B9D00366C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82AA8EFE20030B9D00366C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA8EFF20030B9D00366C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AA8F0420030B9D00366C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82AA8F0520030B9D00366C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AA8F0720030B9D00366C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD40C978A5ED80C97522066B /* Pods-JXSideslipDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JXSideslipDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXSideslipDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82AA8F0820030B9D00366C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0387A814197626ACA1D844DD /* Pods-JXSideslipDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JXSideslipDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXSideslipDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AA8EEB20030B9D00366C69 /* Build configuration list for PBXProject "JXSideslipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA8F0420030B9D00366C69 /* Debug */,
+				82AA8F0520030B9D00366C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AA8F0620030B9D00366C69 /* Build configuration list for PBXNativeTarget "JXSideslipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA8F0720030B9D00366C69 /* Debug */,
+				82AA8F0820030B9D00366C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AA8EE820030B9D00366C69 /* Project object */;
+}
