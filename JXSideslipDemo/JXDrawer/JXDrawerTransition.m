@@ -42,6 +42,7 @@ NSString *const JXDrawerTapNotication = @"JXDrawerTapNotication";
     return [[self alloc] initWithTransitionType:transitionType animationType:animationType configuration:configuration];
 }
 
+#pragma mark - *** UIViewControllerAnimatedTransitioning
 // 转场的时间
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     return 0.25f;
@@ -63,7 +64,7 @@ NSString *const JXDrawerTapNotication = @"JXDrawerTapNotication";
     
 }
 
-
+#pragma mark - *** show
 - (void)transitionShow:(id<UIViewControllerContextTransitioning>)transitionContext{
     switch (_animationType) {
         case JXDrawerAnimationTypeDefault:
@@ -92,7 +93,6 @@ NSString *const JXDrawerTapNotication = @"JXDrawerTapNotication";
     JXDrawerMaskView *maskView = [JXDrawerMaskView shareInstance];
     maskView.frame = fromVC.view.bounds;
     [fromVC.view addSubview:maskView];
-    
     UIView *containerView = [transitionContext containerView];
     
     /// 背景图片

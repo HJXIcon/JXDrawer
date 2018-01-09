@@ -11,21 +11,21 @@
 
 @interface UIViewController (JXDrawer)
 
-
 /**
- 呼出侧滑控制器的方法（主要）
- 
- @param viewController 需要侧滑显示出来的控制器
- @param animationType 侧滑时候的动画类型
- @param configuration 侧滑过程的一些参数配置，如果传nil会创建一个默认的配置参数
+ 侧滑控制器
+
+ @param viewController 侧滑控制器
+ @param animationType  动画类型
+ @param configuration  设置参数
  */
 - (void)jx_showDrawerViewController:(UIViewController *)viewController
                       animationType:(JXDrawerAnimationType)animationType
                       configuration:(JXDrawerConfiguration *)configuration;
 
+
 /**
  注册手势驱动方法，侧滑呼出的方向自动确定，一般在viewDidLoad调用，调用之后会添加一个支持侧滑的手势到本控制器
- 
+
  @param openEdgeGesture 是否开启边缘手势,边缘手势的开始范围为距离边缘50以内
  @param transitionDirectionAutoBlock 手势过程中执行的操作。根据参数direction传整个点击present的事件即可（看demo的使用）
  */

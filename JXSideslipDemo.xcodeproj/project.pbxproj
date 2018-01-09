@@ -23,6 +23,8 @@
 		82AA8F1E20034CB500366C69 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F1D20034CB500366C69 /* RightViewController.m */; };
 		82AA8F2120034DBB00366C69 /* NextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F2020034DBB00366C69 /* NextTableViewController.m */; };
 		82AA8F30200362EC00366C69 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA8F2F200362EC00366C69 /* NavigationController.m */; };
+		82AA8F4220045C2600366C69 /* 桌面5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA8F4020045C2500366C69 /* 桌面5.jpeg */; };
+		82AA8F4320045C2600366C69 /* 桌面4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA8F4120045C2600366C69 /* 桌面4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		82AA8F2020034DBB00366C69 /* NextTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextTableViewController.m; sourceTree = "<group>"; };
 		82AA8F2E200362EC00366C69 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		82AA8F2F200362EC00366C69 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		82AA8F4020045C2500366C69 /* 桌面5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桌面5.jpeg"; sourceTree = "<group>"; };
+		82AA8F4120045C2600366C69 /* 桌面4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桌面4.jpg"; sourceTree = "<group>"; };
 		BD40C978A5ED80C97522066B /* Pods-JXSideslipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXSideslipDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXSideslipDemo/Pods-JXSideslipDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 				82AA8F1D20034CB500366C69 /* RightViewController.m */,
 				82AA8F1F20034DBB00366C69 /* NextTableViewController.h */,
 				82AA8F2020034DBB00366C69 /* NextTableViewController.m */,
+				82AA8F4120045C2600366C69 /* 桌面4.jpg */,
+				82AA8F4020045C2500366C69 /* 桌面5.jpeg */,
 				82AA8EF920030B9D00366C69 /* Main.storyboard */,
 				82AA8EFC20030B9D00366C69 /* Assets.xcassets */,
 				82AA8EFE20030B9D00366C69 /* LaunchScreen.storyboard */,
@@ -210,8 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AA8F0020030B9D00366C69 /* LaunchScreen.storyboard in Resources */,
+				82AA8F4320045C2600366C69 /* 桌面4.jpg in Resources */,
 				82AA8EFD20030B9D00366C69 /* Assets.xcassets in Resources */,
 				82AA8EFB20030B9D00366C69 /* Main.storyboard in Resources */,
+				82AA8F4220045C2600366C69 /* 桌面5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

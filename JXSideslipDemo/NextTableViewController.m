@@ -20,6 +20,8 @@
   
 }
 
+
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
@@ -36,13 +38,14 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellID];
     }
-    
     cell.textLabel.text = [NSString stringWithFormat:@"section == %ld,row == %ld",indexPath.section,indexPath.row];
+    cell.contentView.backgroundColor = [UIColor clearColor];
     
     return cell;
     
     
 }
+
 
 
 

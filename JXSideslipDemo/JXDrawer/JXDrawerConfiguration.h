@@ -24,7 +24,7 @@ typedef NS_ENUM(NSUInteger,JXDrawerTransitionDirection) {
 @property (nonatomic,assign)float distance;
 
 /**
- 遮罩的透明度
+ 遮罩的透明度,默认0.1
  */
 @property (nonatomic,assign)float maskAlpha;
 
@@ -61,7 +61,11 @@ typedef NS_ENUM(NSUInteger,JXDrawerTransitionDirection) {
  @param backImage 动画切换过程中，最底层的背景图片 (仅JXDrawerAnimationTypeDefault动画模式有效)
  @return 配置对象本身
  */
-- (instancetype)initWithDistance:(float)distance maskAlpha:(float)alpha scaleY:(float)scaleY direction:(JXDrawerTransitionDirection)direction backImage:(UIImage *)backImage;
+- (instancetype)initWithDistance:(float)distance
+                       maskAlpha:(float)alpha
+                          scaleY:(float)scaleY
+                       direction:(JXDrawerTransitionDirection)direction
+                       backImage:(UIImage *)backImage;
 
 /**
  创建一个配置对象的类方法
@@ -73,6 +77,10 @@ typedef NS_ENUM(NSUInteger,JXDrawerTransitionDirection) {
  @param backImage 动画切换过程中，最底层的背景图片
  @return 配置对象本身
  */
-+ (instancetype)configurationWithDistance:(float)distance maskAlpha:(float)alpha scaleY:(float)scaleY direction:(JXDrawerTransitionDirection)direction backImage:(UIImage *)backImage;
++ (instancetype)configurationWithDistance:(float)distance
+                                maskAlpha:(float)alpha
+                                   scaleY:(float)scaleY
+                                direction:(JXDrawerTransitionDirection)direction
+                                backImage:(UIImage *)backImage;
 
 @end

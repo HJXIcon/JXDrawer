@@ -18,15 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-}
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBar.hidden = !self.navigationController.navigationBar.hidden;
-}
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-     self.navigationController.navigationBar.hidden = !self.navigationController.navigationBar.hidden;
+ 
+    self.tableView.backgroundColor = [UIColor clearColor];
 }
 
 #pragma mark - UITableViewDataSource
@@ -47,7 +40,8 @@
     }
     
     cell.textLabel.text = [NSString stringWithFormat:@"section == %ld,row == %ld",indexPath.section,indexPath.row];
-    
+    cell.textLabel.textColor = [UIColor orangeColor];
+    cell.backgroundColor = [UIColor clearColor];
     return cell;
     
     
@@ -56,8 +50,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     NextTableViewController *vc = [[NextTableViewController alloc]init];
-    [self jx_pushViewController:vc ];
-    
+    [self jx_pushViewController:vc];
 }
 
 

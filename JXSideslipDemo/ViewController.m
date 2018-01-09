@@ -88,12 +88,11 @@
 - (void)rightClick{
     
     RightViewController *vc = [[RightViewController alloc]init];
-    NavigationController *nav = [[NavigationController alloc]initWithRootViewController:vc];
     
-    JXDrawerConfiguration *configuration = [[JXDrawerConfiguration alloc]init];
-    configuration.direction = JXDrawerTransitionDirectionRight;
+    JXDrawerConfiguration *configuration = [JXDrawerConfiguration configurationWithDistance:300 maskAlpha:0.5 scaleY:0.8 direction:JXDrawerTransitionDirectionRight backImage:[UIImage imageNamed:@"桌面4.jpg"]];
+    
     
     // 调用这个方法
-    [self jx_showDrawerViewController:nav animationType:JXDrawerAnimationTypeDefault configuration:configuration];
+    [self jx_showDrawerViewController:vc animationType:JXDrawerAnimationTypeMask configuration:configuration];
 }
 @end
